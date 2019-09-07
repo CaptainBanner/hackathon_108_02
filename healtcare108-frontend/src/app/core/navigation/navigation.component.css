@@ -1,0 +1,51 @@
+.sidenav-container {
+  height: 100%;
+  color: white;
+  border-style: none;
+  background-color: #FAFAFA;
+  overflow: hidden;
+
+}
+
+.sidenav {
+  width: 15%;
+  background-color: #4CAF50;
+  color: white;
+  border-style: none;
+}
+
+.side-nav-menu {
+  color: white;
+  /* font-size: 1.2rem; */
+  font-weight: bold;
+  border-style: none;
+  margin-top: 10%;
+  border-left: 30%;
+  justify-content: center;
+  align-content: center;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+  border-style: none;
+  justify-content: center;
+  align-content: center;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #4CAF50;
+  justify-content: center;
+  height: 12%;
+  border-style: none;
+}
+
+#title {
+  font-size: 1.5em;
+}
+
+router-outlet {
+  overflow: hidden;
+}

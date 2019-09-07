@@ -1,0 +1,18 @@
+<mat-tab-group mat-align-tabs="center" (selectedTabChange)="onTabSelection($event)">
+
+    <mat-tab label="Analysis">
+      <app-analysis></app-analysis>
+    </mat-tab>
+
+    <mat-tab label="Train">
+      <app-upload-data
+      [type]="type"
+      [title]="'Upload data in a CSV format for training'"></app-upload-data>
+    </mat-tab>
+
+    <mat-tab label="Predict">
+      <app-upload-data
+      [type]="type"
+      [title]="'Upload  data in a CSV format for predicting'"></app-upload-data>
+    </mat-tab>
+  </mat-tab-group>

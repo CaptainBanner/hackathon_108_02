@@ -1,0 +1,19 @@
+.cardList {
+    align-items: center;
+    justify-content: center;
+}
+
+mat-card {
+    justify-content: center;
+    text-align: center;
+    background-color:white;
+}
+
+mat-card-header {
+    justify-content: center;
+    color: rgb(53, 84, 112);
+}
+
+mat-accordion {
+    overflow: hidden;
+}

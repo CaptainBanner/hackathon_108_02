@@ -1,0 +1,76 @@
+<mat-accordion>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Gender
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+      
+          <div class="cardList" fxLayout="row" fxLayoutGap="32px" fxLayout.xs="column">
+                <mat-card style="box-shadow: none !important; width: 100%;">
+                    <mat-card-content>
+                        <img src="http://40.78.132.182/calculation/getimage/?image_name=default">
+                    </mat-card-content>
+                </mat-card>
+            </div>
+        </mat-expansion-panel>
+
+        <mat-expansion-panel (opened)="panelOpenState = true"
+                             (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Blood Gulcose
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+
+          <div class="cardList" fxLayout="row" fxLayoutGap="32px" fxLayout.xs="column">
+                <mat-card style="box-shadow: none !important; width: 100%;">
+                    <mat-card-content>
+                        <img src="http://40.78.132.182/calculation/getimage/?image_name=blood">
+                    </mat-card-content>
+                </mat-card>
+            </div>
+        </mat-expansion-panel>
+
+        <mat-expansion-panel (opened)="panelOpenState = true"
+                             (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Excercise
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <div class="cardList" fxLayout="row" fxLayoutGap="32px" fxLayout.xs="column">
+                <mat-card style="box-shadow: none !important; width: 100%;">
+                    <mat-card-content>
+                        <img src="http://40.78.132.182/calculation/getimage/?image_name=excercise">
+                    </mat-card-content>
+                </mat-card>
+            </div>
+        </mat-expansion-panel>
+
+        <mat-expansion-panel (opened)="panelOpenState = true"
+                             (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Age
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <div class="cardList" fxLayout="row" fxLayout.xs="column">
+                <mat-card style="box-shadow: none !important;">
+                    <mat-card-content>
+                        <img src="http://40.78.132.182/calculation/getimage/?image_name=heartdiagpositive">
+                    </mat-card-content>
+                </mat-card>
+
+                <mat-card style="box-shadow: none !important;">
+                        <mat-card-content>
+                            <img src="http://40.78.132.182/calculation/getimage/?image_name=heartdiagnegative">
+                        </mat-card-content>
+                    </mat-card>
+            </div>
+        </mat-expansion-panel>
+        
+      </mat-accordion>
+            
+         
+        
