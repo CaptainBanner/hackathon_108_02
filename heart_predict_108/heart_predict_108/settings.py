@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'calculation',
+    'heart_predict_108.calculation',
 ]
 
 MIDDLEWARE = [
